@@ -1,0 +1,7 @@
+services:
+    details:
+      build: .
+      image: details100
+      ports:
+        - "2222:8080"
+    
